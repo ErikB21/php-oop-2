@@ -49,7 +49,7 @@
         [          
             '<h2>' . $house_1->name . '</h2>' . '<br>' .
             '<span><strong>Numero Stanze:</strong> ' . $house_1->rooms . '</span>' . '<br>' .
-            '<span><strong>Metri Quadrati:</strong> ' . $house_1->squareMeters . '</span>' . '<br>' .
+            '<span><strong>Metri Quadrati:</strong> ' . $house_1->squareMeters . 'mq' . '</span>' . '<br>' .
             '<span><strong>Anno Costruzione:</strong> ' . $house_1->year . '</span>' . '<br>' .
             '<span>' . $house_1->setRent(1300) . ' euro' . '</span>' . '<br>' .
             '<span><strong>Costo di vendita:</strong> ' . $house_1->setSale(560000) . '</span>'  . '<br>' .
@@ -82,7 +82,7 @@
         [          
             '<h2>' . $house_2->name . '</h2>' . '<br>' .
             '<span><strong>Numero Stanze:</strong> ' . $house_2->rooms . '</span>' . '<br>' .
-            '<span><strong>Metri Quadrati:</strong> ' . $house_2->squareMeters . '</span>' . '<br>' .
+            '<span><strong>Metri Quadrati:</strong> ' . $house_2->squareMeters . 'mq' . '</span>' . '<br>' .
             '<span><strong>Anno Costruzione:</strong> ' . $house_2->year . '</span>' . '<br>' .
             '<span>' . $house_2->setRent(350) . ' euro' . '</span>' . '<br>' .
             '<span>' . $house_2->setSale(220000) . ' euro' . '</span>'  . '<br>' .

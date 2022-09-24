@@ -14,21 +14,20 @@
 </head>
 <body>
     <main>
-        <div class="container-1">
-                
-                <?php
-                    foreach($list_1 as $list){
-                            echo "<div class='card'>". $list[0] . "</div>";
-                    }
-                ?>
+        <div class="container-1">    
+            <?php
+                foreach($list_1 as $list){
+                    echo "<div class='card'>". $list[0] . "</div>";
+                }
+            ?>
         </div>
+
         <div class="container-2">
-                <?php
-                    foreach($list_2 as $list){
-                            echo "<div class='card'>". $list[0] . "</div>";
-                    }
-                ?>
-                
+            <?php
+                foreach($list_2 as $list){
+                    echo "<div class='card'>". $list[0] . "</div>";
+                }
+            ?>     
         </div>
     </main>
 </body>

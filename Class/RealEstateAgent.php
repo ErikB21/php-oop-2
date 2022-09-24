@@ -19,7 +19,4 @@
         public function getWorkEmail(){
             return $this->worksEmail;
         }
-
-
-
     }
